@@ -338,7 +338,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &180336591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -420,7 +420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLocations:
-  - {fileID: 180336590}
+  - {fileID: 1737598226}
 --- !u!4 &180336594
 Transform:
   m_ObjectHideFlags: 0
@@ -1357,7 +1357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1511222313}
+  selectedFlowchart: {fileID: 964466575}
 --- !u!4 &451706577
 Transform:
   m_ObjectHideFlags: 1
@@ -2653,142 +2653,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &964466542
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964466530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  storyText: "You have been sent here to gather fire wood \r\n"
-  description: 
-  character: {fileID: 2107087205}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &964466543
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964466530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 4
-  indentLevel: 0
-  storyText: 'You''d usually complain about getting a task like this, but after all
-    these months you''re just happy to get out of there. '
-  description: 
-  character: {fileID: 2107087205}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &964466544
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964466530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  storyText: "After some time chopping you start to realise\u2026"
-  description: 
-  character: {fileID: 2107087205}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &964466545
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964466530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  storyText: "How quiet it is, its calming it reminds you of\u2026home \r\n"
-  description: 
-  character: {fileID: 2107087205}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &964466546
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964466530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: 'You walk into the forest with an axe in hand '
-  description: 
-  character: {fileID: 2107087205}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &964466547
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2845,7 +2709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: "Until it sounds like it\u2019s right above you"
+  storyText: "Until it sounds like it\u2019s right behind you"
   description: 
   character: {fileID: 2107087205}
   portrait: {fileID: 0}
@@ -2872,9 +2736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: 'The roar of an engine
-
-'
+  storyText: 'You don''t stop long enough to figure what you hear you just start
+    running '
   description: 
   character: {fileID: 2107087205}
   portrait: {fileID: 0}
@@ -2955,9 +2818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: 'then you hear something
-
-'
+  storyText: "You are walking in the forest \r\n"
   description: 
   character: {fileID: 2107087205}
   portrait: {fileID: 0}
@@ -3722,6 +3583,127 @@ MonoBehaviour:
   - {fileID: 964466568}
   - {fileID: 964466569}
   suppressAllAutoSelections: 0
+--- !u!114 &964466575 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+  m_PrefabInstance: {fileID: 1271217763}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964466530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &964466576
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964466530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 36
+  indentLevel: 0
+  storyText: "And for the first time in a long time you feel relaxed \r\n"
+  description: 
+  character: {fileID: 2107087205}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &964466577
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964466530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 34
+  indentLevel: 0
+  storyText: "Just aimlessly wandering trying to get away from it all \r\n \r\n"
+  description: 
+  character: {fileID: 2107087205}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &964466578
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964466530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 33
+  indentLevel: 0
+  storyText: 'You notice how quiet it is '
+  description: 
+  character: {fileID: 2107087205}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &964466579
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964466530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 0
+  storyText: 'then you hear something
+
+'
+  description: 
+  character: {fileID: 2107087205}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1017435112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5204,32 +5186,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049652, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: commandList.Array.size
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049652, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'commandList.Array.data[0]'
       value: 
-      objectReference: {fileID: 964466546}
+      objectReference: {fileID: 964466554}
     - target: {fileID: 2579839264173049652, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'commandList.Array.data[1]'
       value: 
-      objectReference: {fileID: 964466542}
+      objectReference: {fileID: 964466577}
     - target: {fileID: 2579839264173049652, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'commandList.Array.data[2]'
       value: 
-      objectReference: {fileID: 964466543}
+      objectReference: {fileID: 964466578}
     - target: {fileID: 2579839264173049652, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'commandList.Array.data[3]'
       value: 
-      objectReference: {fileID: 964466544}
+      objectReference: {fileID: 964466576}
     - target: {fileID: 2579839264173049652, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'commandList.Array.data[4]'
       value: 
-      objectReference: {fileID: 964466545}
+      objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049652, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'commandList.Array.data[5]'
       value: 
-      objectReference: {fileID: 964466554}
+      objectReference: {fileID: 964466579}
     - target: {fileID: 2579839264173049652, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'commandList.Array.data[6]'
       value: 
@@ -5272,7 +5254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: variables.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'variables.Array.data[0]'
@@ -5292,16 +5274,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'selectedBlocks.Array.data[0]'
       value: 
-      objectReference: {fileID: 964466573}
+      objectReference: {fileID: 964466540}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'selectedCommands.Array.data[0]'
       value: 
-      objectReference: {fileID: 964466570}
+      objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'selectedCommands.Array.data[1]'
       value: 
@@ -5342,21 +5324,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 964466547}
-    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 964466546}
-    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 964466545}
-    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 964466544}
-    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 964466543}
-    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 964466542}
     - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 964466554}
@@ -5432,6 +5399,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 964466568}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 964466579}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 964466578}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 964466577}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 964466576}
   m_SourcePrefab: {fileID: 100100000, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
 --- !u!114 &1273714726 stripped
 MonoBehaviour:
@@ -6292,17 +6271,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1511222313 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
-  m_PrefabInstance: {fileID: 1511222309}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511222311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1511222314
@@ -9316,7 +9284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1737598227
 MonoBehaviour:
   m_ObjectHideFlags: 0
