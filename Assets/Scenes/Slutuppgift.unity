@@ -482,11 +482,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'selectedBlocks.Array.data[0]'
@@ -495,7 +495,7 @@ PrefabInstance:
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'selectedCommands.Array.data[0]'
       value: 
-      objectReference: {fileID: 150553537}
+      objectReference: {fileID: 150553547}
     - target: {fileID: 2579839264173049653, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       propertyPath: 'selectedCommands.Array.data[1]'
       value: 
@@ -758,6 +758,36 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 150553537}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553556}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553555}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553554}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553553}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553552}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553551}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553550}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553549}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553548}
+    - targetCorrespondingSourceObject: {fileID: 2579839264173049673, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 150553547}
   m_SourcePrefab: {fileID: 100100000, guid: 8be68621a4e2ad54eb447cdf61f1bb0b, type: 3}
 --- !u!4 &150553462 stripped
 Transform:
@@ -1656,7 +1686,17 @@ MonoBehaviour:
   blockName: 'cant take '
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 150553556}
+  - {fileID: 150553553}
+  - {fileID: 150553554}
+  - {fileID: 150553555}
+  - {fileID: 150553551}
+  - {fileID: 150553552}
+  - {fileID: 150553549}
+  - {fileID: 150553548}
+  - {fileID: 150553550}
+  - {fileID: 150553547}
   suppressAllAutoSelections: 0
 --- !u!114 &150553486
 MonoBehaviour:
@@ -1949,7 +1989,7 @@ MonoBehaviour:
   indentLevel: 0
   text: "I just couldn't take it anymore\u2026 \r\n"
   description: 
-  targetBlock: {fileID: 0}
+  targetBlock: {fileID: 150553485}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -4181,6 +4221,270 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 150553464}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 99
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 150553545}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &150553548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 98
+  indentLevel: 0
+  storyText: I... I...
+  description: 
+  character: {fileID: 1404893698}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 97
+  indentLevel: 0
+  storyText: "Your sudden willingness to open up \r\n"
+  description: 
+  character: {fileID: 150553464}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  indentLevel: 0
+  storyText: "Do you have people in your life who care about you? \r\n"
+  description: 
+  character: {fileID: 150553464}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 95
+  indentLevel: 0
+  storyText: "So i ran \r\n"
+  description: 
+  character: {fileID: 1404893698}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 94
+  indentLevel: 0
+  storyText: "Fascinating \r\n"
+  description: 
+  character: {fileID: 150553464}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 93
+  indentLevel: 0
+  storyText: "All the pressure\u2026\r\n"
+  description: 
+  character: {fileID: 1404893698}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 92
+  indentLevel: 0
+  storyText: "All the expectations\u2026\r\n"
+  description: 
+  character: {fileID: 1404893698}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 91
+  indentLevel: 0
+  storyText: "It all became too much\u2026 \r\n"
+  description: 
+  character: {fileID: 1404893698}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &150553556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150553463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 90
+  indentLevel: 0
+  storyText: "I just couldn't take it anymore\u2026"
+  description: 
+  character: {fileID: 1404893698}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
